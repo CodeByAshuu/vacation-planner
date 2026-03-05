@@ -4,7 +4,7 @@ import About from "./components/About";
 
 export default function App() {
   return (
-    <div className="bg-gray-100 p-10">
+    <div className="bg-white p-10">
       <div className="bg-white rounded-3xl overflow-hidden">
         <Hero />
         <Logos />
