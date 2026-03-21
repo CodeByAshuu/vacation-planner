@@ -32,15 +32,15 @@ export default function Destinations() {
         </div>
 
         {/* Featured Big Card */}
-        <div className="relative h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 group cursor-pointer">
+        <div className="relative h-100 md:h-125 rounded-[3rem] overflow-hidden mb-16 group cursor-pointer">
           <img 
             src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=1200" 
             alt="Featured Destination" 
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+          <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent"></div>
           <div className="absolute bottom-10 left-10 text-white">
-            <span className="bg-[#d4af37] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4 inline-block">Featured</span>
+            <span className="bg-gold-muted text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4 inline-block">Featured</span>
             <h2 className="text-4xl md:text-5xl font-serif mb-2">Bali, Indonesia</h2>
             <p className="text-lg text-gray-200">The ultimate tropical sanctuary for the soul.</p>
           </div>

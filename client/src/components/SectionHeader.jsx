@@ -2,7 +2,7 @@ export default function SectionHeader({ title, subtitle, centered = false }) {
   return (
     <div className={`mb-16 ${centered ? "text-center" : ""}`}>
       {subtitle && (
-        <span className="text-[#d4af37] text-sm font-semibold tracking-widest uppercase mb-3 block">
+        <span className="text-gold-muted text-sm font-semibold tracking-widest uppercase mb-3 block">
           {subtitle}
         </span>
       )}

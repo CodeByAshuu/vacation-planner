@@ -33,10 +33,10 @@ export default function Blog() {
               />
             </div>
             <div className="md:w-1/2 p-10 md:p-16 flex flex-col justify-center">
-              <span className="text-[#d4af37] text-sm font-bold uppercase tracking-widest mb-4">Featured Guide</span>
+              <span className="text-gold-muted text-sm font-bold uppercase tracking-widest mb-4">Featured Guide</span>
               <h2 className="text-3xl md:text-4xl font-serif mb-6 leading-snug">The Ultimate Guide to Island Hopping in the Maldives</h2>
               <p className="text-gray-500 mb-8 leading-relaxed">Discover pristine atolls, vibrant coral reefs, and unparalleled luxury resorts spread across the Indian Ocean.</p>
-              <div className="flex items-center text-sm font-medium text-gray-900 group-hover:text-[#d4af37] transition-colors">
+              <div className="flex items-center text-sm font-medium text-gray-900 group-hover:text-gold-muted transition-colors">
                 Read Article <span className="ml-2">→</span>
               </div>
             </div>
@@ -54,12 +54,12 @@ export default function Blog() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              <div className="p-8 flex-grow flex flex-col">
+              <div className="p-8 grow flex flex-col">
                 <div className="flex justify-between items-center mb-4 text-xs font-medium text-gray-400 uppercase tracking-wider">
                   <span>{post.category}</span>
                   <span>{post.date}</span>
                 </div>
-                <h3 className="text-xl font-serif mb-4 leading-snug group-hover:text-[#d4af37] transition-colors">{post.title}</h3>
+                <h3 className="text-xl font-serif mb-4 leading-snug group-hover:text-gold-muted transition-colors">{post.title}</h3>
                 <div className="mt-auto pt-4 border-t border-gray-100 flex items-center text-sm font-semibold text-gray-900">
                   Read more <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
                 </div>

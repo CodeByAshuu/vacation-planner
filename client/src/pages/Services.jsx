@@ -51,7 +51,7 @@ export default function Services() {
         <SectionHeader title="How it Works" subtitle="OUR PROCESS" centered />
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-16 relative">
           {/* Connecting Line for Desktop */}
-          <div className="hidden md:block absolute top-[28px] left-[10%] right-[10%] h-[2px] bg-gray-200"></div>
+          <div className="hidden md:block absolute top-7 left-[10%] right-[10%] h-0.5 bg-gray-200"></div>
           
           {process.map((step, i) => (
             <div key={i} className="text-center relative z-10">

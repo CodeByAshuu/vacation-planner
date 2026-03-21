@@ -7,7 +7,7 @@ export default function Hero() {
       <Navbar />
 
       {/* Hero Image */}
-      <div className="h-[600px] relative">
+      <div className="h-150 relative">
         <img
           src="/hero.jpg"
           className="w-full h-full object-cover"

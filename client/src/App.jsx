@@ -13,10 +13,10 @@ import Contact from "./pages/Contact";
 export default function App() {
   return (
     <div className="bg-white p-6 lg:p-10 min-h-screen">
-      <div className="bg-white rounded-[2rem] overflow-hidden relative min-h-[calc(100vh-5rem)] flex flex-col">
+      <div className="bg-white rounded-4xl overflow-hidden relative min-h-[calc(100vh-5rem)] flex flex-col">
         <Navbar />
         
-        <main className="flex-grow">
+        <main className="grow">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

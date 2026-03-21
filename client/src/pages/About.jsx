@@ -39,7 +39,7 @@ export default function About() {
           <img 
             src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=800" 
             alt="Travel view" 
-            className="w-full h-[500px] object-cover rounded-3xl shadow-xl rotate-1 hover:rotate-0 transition-transform duration-500"
+            className="w-full h-125 object-cover rounded-3xl shadow-xl rotate-1 hover:rotate-0 transition-transform duration-500"
           />
           <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-lg hidden md:block">
             <p className="font-serif text-3xl text-[#fcd143]">10+</p>
@@ -85,7 +85,7 @@ export default function About() {
                 />
               </div>
               <h3 className="text-lg font-serif font-semibold">{member.name}</h3>
-              <p className="text-sm text-[#d4af37] font-medium tracking-wide uppercase mt-1">{member.role}</p>
+              <p className="text-sm text-gold-muted font-medium tracking-wide uppercase mt-1">{member.role}</p>
             </div>
           ))}
         </div>
