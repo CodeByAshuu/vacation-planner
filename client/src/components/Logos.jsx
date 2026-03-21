@@ -7,7 +7,7 @@ export default function Logos() {
         FEATURED AND AWARDED
       </p> */}
 
-      <div className="flex justify-center gap-24 text-gray-400 text-3xl italic">
+      <div className="flex justify-center gap-4 lg:gap-24 text-gray-400 text-xs lg:text-3xl italic">
         {logos.map((logo, i) => (
           <span key={i}>{logo}</span>
         ))}

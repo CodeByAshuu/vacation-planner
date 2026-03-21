@@ -17,7 +17,7 @@ export default function Hero() {
 
         {/* Heading */}
         <div className="absolute bottom-24 left-1/2 -translate-x-1/2 text-center text-white">
-          <h1 className="text-5xl font-serif leading-tight">
+          <h1 className="text-2xl lg:text-5xl font-serif leading-tight">
             Your destination <br /> for all things travel
           </h1>
         </div>
@@ -26,7 +26,7 @@ export default function Hero() {
       {/* Overlapping badge */}
       <div className="absolute left-1/2 bottom-3 -translate-x-1/2 translate-y-1/2">
         {/* <div style={{ clipPath: "polygon(5% 0%, 95% 0, 100% 100%, 0% 100%)" }}> */}
-          <div className="bg-white px-24 py-4 rounded-xl shadow text-sm tracking-widest text-gray-500">
+          <div className="bg-white px-4 lg:px-24 py-4 lg:py-4 rounded-xl shadow text-[8px] lg:text-sm tracking-widest text-gray-500">
             FEATURED AND AWARDED
           </div>
         {/* </div> */}

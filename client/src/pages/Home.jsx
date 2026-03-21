@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Logos from "../components/Logos";
-import About from "../components/About"; // The original About component that was on the index page
+import About from "../components/About"; 
+import WeddingDestinations from "../components/WeddingDestinations"; 
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Logos />
       <About />
+      <WeddingDestinations />
     </div>
   );
 }
