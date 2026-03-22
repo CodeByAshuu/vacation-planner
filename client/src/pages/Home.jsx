@@ -6,7 +6,9 @@ import WeddingDestinations from "../components/WeddingDestinations";
 export default function Home() {
   return (
     <div>
-      <Hero />
+      <Hero 
+        title={<>Your destination <br /> for all things travel</>}
+      />
       <Logos />
       <About />
       <WeddingDestinations />

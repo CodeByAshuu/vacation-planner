@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function WeddingDestinations() {
   const resorts = [
     {
@@ -85,7 +87,7 @@ export default function WeddingDestinations() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {resorts.map((resort, i) => (
-              <div key={i} className="group flex flex-col gap-4 cursor-pointer">
+              <Link key={i} to={`/resorts/${resort.name.toLowerCase().replace(/\s+/g, '-')}`} className="group flex flex-col gap-4 cursor-pointer">
                 <div className="relative h-64 rounded-xl overflow-hidden shadow-sm group-hover:shadow-xl transition-shadow duration-500">
                   <img 
                     src={resort.img} 
@@ -102,7 +104,7 @@ export default function WeddingDestinations() {
                   <h4 className="text-xl font-light font-serif text-gray-900 mb-2 leading-tight">{resort.name}</h4>
                   <p className="text-sm text-gray-500 line-clamp-2 md:leading-relaxed">{resort.desc}</p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
           <button className="text-sm font-semibold text-gray-600 uppercase tracking-wider text-center mt-2 md:hidden">

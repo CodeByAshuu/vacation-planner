@@ -9,6 +9,8 @@ import Services from "./pages/Services";
 import Destinations from "./pages/Destinations";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import DestinationDetail from "./pages/DestinationDetail";
+import ResortDetail from "./pages/ResortDetail";
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/destinations" element={<Destinations />} />
+            <Route path="/destinations/:id" element={<DestinationDetail />} />
+            <Route path="/resorts/:id" element={<ResortDetail />} />
             <Route path="/resources" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
