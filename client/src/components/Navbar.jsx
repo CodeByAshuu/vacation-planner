@@ -9,9 +9,9 @@ export default function Navbar() {
   const textClass = isHome ? "text-white" : "text-gray-900";
 
   const navLinks = [
-    { name: "About us", path: "/about" },
-    { name: "Services", path: "/services" },
     { name: "Destinations", path: "/destinations" },
+    { name: "Services", path: "/services" },
+    { name: "About us", path: "/about" },
     { name: "Resources", path: "/resources" },
   ];
 
