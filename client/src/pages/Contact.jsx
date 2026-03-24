@@ -21,22 +21,22 @@ export default function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <label className="text-sm font-medium text-gray-700">First Name</label>
-                <input type="text" className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#d4af37]/50 focus:border-[#d4af37] transition-all" placeholder="Jane" />
+                <input type="text" className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gold-muted/50 focus:border-gold-muted transition-all" placeholder="Jane" />
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-medium text-gray-700">Last Name</label>
-                <input type="text" className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#d4af37]/50 focus:border-[#d4af37] transition-all" placeholder="Doe" />
+                <input type="text" className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gold-muted/50 focus:border-gold-muted transition-all" placeholder="Doe" />
               </div>
             </div>
             
             <div className="space-y-2">
               <label className="text-sm font-medium text-gray-700">Email Address</label>
-              <input type="email" className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#d4af37]/50 focus:border-[#d4af37] transition-all" placeholder="jane@example.com" />
+              <input type="email" className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gold-muted/50 focus:border-gold-muted transition-all" placeholder="jane@example.com" />
             </div>
 
             <div className="space-y-2">
               <label className="text-sm font-medium text-gray-700">Destination Interest</label>
-              <select className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#d4af37]/50 focus:border-[#d4af37] transition-all appearance-none">
+              <select className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gold-muted/50 focus:border-gold-muted transition-all appearance-none">
                 <option>Select a region</option>
                 <option>Europe</option>
                 <option>Asia</option>
@@ -48,7 +48,7 @@ export default function Contact() {
 
             <div className="space-y-2">
               <label className="text-sm font-medium text-gray-700">Message</label>
-              <textarea rows="4" className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#d4af37]/50 focus:border-[#d4af37] transition-all" placeholder="Tell us about your ideal trip..."></textarea>
+              <textarea rows="4" className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gold-muted/50 focus:border-gold-muted transition-all" placeholder="Tell us about your ideal trip..."></textarea>
             </div>
 
             <Button className="w-full">Submit Inquiry</Button>
@@ -58,7 +58,7 @@ export default function Contact() {
         {/* Info Section */}
         <div className="flex flex-col justify-center space-y-12 lg:pl-10">
           <div>
-            <h3 className="text-[#d4af37] text-sm font-bold uppercase tracking-widest mb-4">Contact Details</h3>
+            <h3 className="text-gold-muted text-sm font-bold uppercase tracking-widest mb-4">Contact Details</h3>
             <div className="space-y-6">
               <div>
                 <p className="text-gray-400 text-sm mb-1">Email</p>
@@ -75,7 +75,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="h-64 rounded-[2rem] overflow-hidden relative">
+          <div className="h-64 rounded-4xl overflow-hidden relative">
             {/* Map Placeholder Image */}
             <img 
               src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=800" 
