@@ -102,7 +102,7 @@ export default function Services() {
       
       {/* Section 1: Hero Refactored */}
       <Hero 
-        image="/service.jpg"
+        image="/Nepal.jpg"
         title={<>Bespoke travel experiences,<br />crafted for you.</>}
         subtitle="We guide you through the world's most breathtaking locations to discover the one that matches your dream celebration."
         height="h-[400px] md:h-[570px]"
