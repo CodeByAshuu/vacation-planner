@@ -347,9 +347,13 @@ export default function Services() {
               {/* <Button variant="primary" className="text-lg px-12 py-5 rounded-full bg-white text-emerald-950 hover:bg-gray-100 w-full sm:w-auto border-none shadow-2xl transition-all active:scale-95">
                 Start Planning
               </Button> */}
-              <button className="bg-white text-emerald-950 text-lg px-8 py-5 rounded-full hover:bg-gray-100 w-full sm:w-auto border-none shadow-2xl transition-all active:scale-95">
+              <Button variant="primary" className="text-lg px-12 py-5 rounded-full text-emerald-950 w-full sm:w-auto border-none shadow-2xl transition-all active:scale-95">
                 Start Planning
-              </button>
+              </Button>
+              
+              {/* <button className="bg-white text-emerald-950 text-lg px-8 py-5 rounded-full hover:bg-gray-100 w-full sm:w-auto border-none shadow-2xl transition-all active:scale-95">
+                Start Planning
+              </button> */}
               <Button variant="outline" className="text-lg px-12 py-5 rounded-full border-white/20 text-white hover:bg-white/10 w-full sm:w-auto transition-all backdrop-blur-md active:scale-95">
                 View Destinations
               </Button>
