@@ -51,24 +51,24 @@ export default function Services() {
     { 
       title: "Destination Weddings", 
       desc: "Seamlessly orchestrated celebrations in the world's most romantic locations.", 
-      img: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800",
+      img: "/service-wedding.jpg",
       tag: "Signature"
     },
     { 
       title: "Luxury Cruises", 
       desc: "Sail the seas in unparalleled comfort with elite cruise lines and private yachts.", 
-      img: "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+      img: "/service-cruise.jpg",
       tag: "Popular"
     },
     { 
       title: "Group Travel", 
       desc: "Curated itineraries for families, corporate retreats, and friend escapes.", 
-      img: "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?auto=format&fit=crop&q=80&w=800"
+      img: "/service-groups.jpg"
     },
     { 
       title: "Custom Trips", 
       desc: "Your dream vacation built from scratch, ensuring total personalization.", 
-      img: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=800" 
+      img: "/service-custom.jpg" 
     }
   ];
 
@@ -151,21 +151,21 @@ export default function Services() {
         {/* Section 3: Services (Redesigned Premium Z-Pattern) */}
         <section id="services-expertise" className="max-w-7xl mx-auto px-4 md:px-0">
           <div className="text-center mb-28 max-w-3xl mx-auto">
-            <span className="text-[#d4af37] font-medium tracking-[0.4em] uppercase text-[10px] mb-6 block drop-shadow-sm">
+            <span className="text-gold-muted font-medium tracking-[0.4em] uppercase text-[10px] mb-6 block drop-shadow-sm">
               Tailored Boutique Travel
             </span>
             <h2 className="text-5xl md:text-7xl font-serif text-gray-900 mb-8 font-semibold leading-[1.1]">
               Unparalleled Expertise
             </h2>
-            <div className="w-16 h-px bg-[#d4af37] mx-auto mb-8 opacity-40"></div>
+            <div className="w-16 h-px bg-gold-muted mx-auto mb-8 opacity-40"></div>
             <p className="max-w-2xl mx-auto text-gray-500 text-xl font-light leading-relaxed">
               We curate a collection of boutique travel services, each masterfully designed to elevate your journey into an extraordinary narrative.
             </p>
           </div>
           
-          <div className="space-y-40">
+          <div className="space-y-40 ">
             {services.map((svc, i) => (
-              <div key={i} className={`flex flex-col ${i % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-16 lg:gap-24 group`}>
+              <div key={i} className={`flex flex-col bg-gray-50 p-6 rounded-3xl hover:shadow-sm ${i % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-16 lg:gap-24 group`}>
                 
                 {/* Visual Canvas Side */}
                 <div className="w-full lg:w-[60%] relative">
@@ -175,11 +175,11 @@ export default function Services() {
                   </div>
                   
                   {/* Main Image Container */}
-                  <div className="relative aspect-[16/10] overflow-hidden rounded-[2.5rem] shadow-[0_50px_100px_-20px_rgba(0,0,0,0.15)] group-hover:shadow-[0_50px_100px_-20px_rgba(212,175,55,0.15)] transition-all duration-1000">
+                  <div className="relative aspect-16/10 overflow-hidden rounded-[2.5rem] group-hover:shadow-[0_50px_100px_-20px_rgba(212,175,55,0.15)] transition-all duration-1000">
                     <img 
                       src={svc.img} 
                       alt={svc.title} 
-                      className="w-full h-full object-cover transition-transform duration-[2000ms] group-hover:scale-110"
+                      className="w-full h-full object-cover "
                     />
                     {/* Artistic Overlays */}
                     <div className="absolute inset-0 bg-linear-to-t from-gray-900/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-1000"></div>
@@ -193,9 +193,9 @@ export default function Services() {
                   </div>
                   
                   {/* Floating Accent Element */}
-                  <div className={`absolute -bottom-8 ${i % 2 === 0 ? '-right-8' : '-left-8'} hidden xl:flex w-40 h-40 bg-white shadow-2xl rounded-3xl items-center justify-center p-8 backdrop-blur-sm bg-white/90 border border-gray-50 transform group-hover:translate-y-2 transition-transform duration-700`}>
+                  <div className={`absolute -bottom-8 ${i % 2 === 0 ? '-right-8' : '-left-8'} hidden xl:flex w-40 h-40 shadow-2xl rounded-3xl items-center justify-center p-8 backdrop-blur-sm bg-white/90 border border-gray-50 transform group-hover:translate-y-2 transition-transform duration-700`}>
                     <div className="text-center">
-                      <div className="text-[#d4af37] font-serif italic text-3xl mb-1">Luxury</div>
+                      <div className="text-gold-muted font-serif italic text-3xl mb-1">Luxury</div>
                       <div className="text-[8px] tracking-widest text-gray-400 uppercase font-bold">Standard</div>
                     </div>
                   </div>
@@ -216,7 +216,7 @@ export default function Services() {
                     <div className="grid grid-cols-2 gap-4">
                       {["Hand-picked locales", "Private concierge", "Seamless logistics", "Elite partnerships"].map((feat, idx) => (
                         <div key={idx} className="flex items-center gap-3">
-                          <div className="w-1.5 h-1.5 rounded-full bg-[#d4af37]/60 group-hover:bg-[#d4af37] transition-colors"></div>
+                          <div className="w-1.5 h-1.5 rounded-full bg-gold-muted/60 group-hover:bg-gold-muted transition-colors"></div>
                           <span className="text-xs font-medium text-gray-400 group-hover:text-gray-600 transition-colors uppercase tracking-widest">
                             {feat}
                           </span>
@@ -226,7 +226,7 @@ export default function Services() {
                     
                     <div className="flex pt-6">
                       <button className="flex items-center gap-5 group/cta text-gray-900">
-                        <span className="text-xs font-bold uppercase tracking-[0.3em] border-b-2 border-transparent group-hover/cta:border-[#d4af37] transition-all pb-1 translate-y-0.5">
+                        <span className="text-xs font-bold uppercase tracking-[0.3em] border-b-2 border-transparent group-hover/cta:border-gold-muted transition-all pb-1 translate-y-0.5">
                           Discover Experience
                         </span>
                         <div className="w-14 h-14 rounded-full border border-gray-100 flex items-center justify-center bg-gray-50 transition-all duration-500 group-hover/cta:bg-gray-900 group-hover/cta:text-white group-hover/cta:border-gray-900 group-hover/cta:shadow-xl group-hover/cta:-rotate-45">
@@ -306,32 +306,32 @@ export default function Services() {
           {/* Floating Icons Background Layer */}
           <div className="absolute inset-0 pointer-events-none overflow-hidden select-none">
             {/* Top Left: Plane */}
-            <div className="absolute top-12 left-12 opacity-0 group-hover:opacity-20 group-hover:-translate-y-6 group-hover:translate-x-4 transition-all duration-[1500ms] ease-out delay-75">
+            <div className="absolute top-12 left-12 opacity-0 group-hover:opacity-20 group-hover:-translate-y-6 group-hover:translate-x-4 transition-all duration-1500 ease-out delay-75">
                <Plane className="w-10 h-10 rotate-[-15deg] text-white" strokeWidth={1} />
             </div>
             
             {/* Top Right: MapPin */}
-            <div className="absolute top-20 right-32 opacity-0 group-hover:opacity-20 group-hover:translate-x-8 group-hover:-translate-y-2 transition-all duration-[2000ms] ease-out delay-300">
+            <div className="absolute top-20 right-32 opacity-0 group-hover:opacity-20 group-hover:translate-x-8 group-hover:-translate-y-2 transition-all duration-2000 ease-out delay-300">
                <MapPin className="w-8 h-8 rotate-15 text-white" strokeWidth={1} />
             </div>
             
             {/* Bottom Left: Map */}
-            <div className="absolute bottom-20 left-48 opacity-0 group-hover:opacity-20 group-hover:translate-y-6 group-hover:-translate-x-2 transition-all duration-[1800ms] ease-out delay-500">
+            <div className="absolute bottom-20 left-48 opacity-0 group-hover:opacity-20 group-hover:translate-y-6 group-hover:-translate-x-2 transition-all duration-1800 ease-out delay-500">
                <Map className="w-9 h-9 rotate-[-10deg] text-white" strokeWidth={1} />
             </div>
             
             {/* Bottom Right: Utensils (Cuisine) */}
-            <div className="absolute bottom-12 right-12 opacity-0 group-hover:opacity-20 group-hover:-translate-x-6 group-hover:-translate-y-4 transition-all duration-[1600ms] ease-out delay-150">
+            <div className="absolute bottom-12 right-12 opacity-0 group-hover:opacity-20 group-hover:-translate-x-6 group-hover:-translate-y-4 transition-all duration-1600 ease-out delay-150">
                <Utensils className="w-10 h-10 rotate-25 text-white" strokeWidth={1} />
             </div>
             
             {/* Inner Floating Elements: Globe */}
-            <div className="absolute top-1/2 -translate-y-1/2 left-10 opacity-0 group-hover:opacity-10 group-hover:scale-125 transition-all duration-[2500ms] ease-out delay-700">
+            <div className="absolute top-1/2 -translate-y-1/2 left-10 opacity-0 group-hover:opacity-10 group-hover:scale-125 transition-all duration-2500 ease-out delay-700">
                <Globe className="w-14 h-14 text-white" strokeWidth={1} />
             </div>
 
             {/* Subtle extra: Star */}
-            <div className="absolute top-3/5 right-50 opacity-0 group-hover:opacity-15 group-hover:rotate-45 transition-all duration-[3000ms] delay-[1000ms]">
+            <div className="absolute top-3/5 right-50 opacity-0 group-hover:opacity-15 group-hover:rotate-45 transition-all duration-3000 delay-1000">
                <Star className="w-6 h-6 text-gold-muted" />
             </div>
           </div>

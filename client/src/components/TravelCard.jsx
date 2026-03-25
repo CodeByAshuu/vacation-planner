@@ -3,7 +3,7 @@ import { Heart, Tag, PlaneTakeoff } from "lucide-react";
 
 const TravelCard = ({ image, title, subtitle, price, airport, onSearch }) => {
   return (
-    <div className="relative group w-72 h-[480px] rounded-[2rem] overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]">
+    <div className="relative group w-72 h-120 rounded-4xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]">
       {/* Background Image */}
       <img
         src={image}
@@ -12,7 +12,7 @@ const TravelCard = ({ image, title, subtitle, price, airport, onSearch }) => {
       />
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent" />
 
       {/* Frosted glass panel behind bottom content */}
         <div className="absolute bottom-0 left-0 right-0 h-48 backdrop-blur-md opacity-[0.7] bg-linear-to-t from-white/40 to-transparent rounded-b-4xl" />
