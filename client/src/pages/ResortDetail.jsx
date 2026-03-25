@@ -26,7 +26,7 @@ export default function ResortDetail() {
   };
 
   return (
-    <div className="pt-24 pb-20 px-6 lg:px-10 max-w-7xl mx-auto">
+    <div className="pt-24 px-6 lg:px-10 mx-auto">
       <Link to="/destinations" className="flex items-center gap-2 text-sm font-semibold text-gray-500 hover:text-gold-muted transition-colors mb-8">
         <ArrowLeft className="w-4 h-4" /> Back to Resorts
       </Link>
@@ -52,7 +52,7 @@ export default function ResortDetail() {
         </div>
 
         <div className="lg:w-1/3 flex flex-col gap-6">
-          <Card className="bg-gray-900 text-white p-10 h-max">
+          <Card className="bg-gray-900 p-10 h-max">
             <h3 className="text-2xl font-serif mb-6">Expert Planning</h3>
             <p className="text-gray-400 mb-8 text-sm leading-relaxed">Let our certified specialists handle your booking at {data.name} to ensure exclusive perks and seamless coordination.</p>
             <Button variant="primary" className="w-full">Book This Resort</Button>
