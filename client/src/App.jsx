@@ -11,6 +11,8 @@ import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import DestinationDetail from "./pages/DestinationDetail";
 import ResortDetail from "./pages/ResortDetail";
+import ResortPage from "./pages/ResortPage";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
@@ -26,12 +28,14 @@ export default function App() {
             <Route path="/destinations" element={<Destinations />} />
             <Route path="/destinations/:id" element={<DestinationDetail />} />
             <Route path="/resorts/:id" element={<ResortDetail />} />
+            <Route path="/resorts" element={<ResortPage />} />
             <Route path="/resources" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
 
         <Footer />
+        <ScrollToTop />
       </div>
     </div>
   );

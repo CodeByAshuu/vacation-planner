@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import Card from "../components/Card";
 import Button from "../components/Button";
@@ -5,6 +6,10 @@ import { Star, MapPin, Users, Utensils, Waves, ArrowLeft } from "lucide-react";
 
 export default function ResortDetail() {
   const { id } = useParams();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, [id]);
   
   // Dummy data
   const data = {

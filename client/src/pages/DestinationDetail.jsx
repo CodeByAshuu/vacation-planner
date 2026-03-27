@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import Card from "../components/Card";
 import Button from "../components/Button";
@@ -14,6 +15,10 @@ import {
 
 export default function DestinationDetail() {
   const { id } = useParams();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, [id]);
   
   // Dummy data for example
   const data = {

@@ -1,0 +1,110 @@
+export const mockResorts = [
+  {
+    id: "resort-1",
+    name: "Azul Beach Resort",
+    location: "Riviera Maya, Mexico",
+    country: "Mexico",
+    price: 350,
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=800&q=80",
+    type: ["All-inclusive", "Family-friendly", "Beachfront"],
+    amenities: ["Pool", "Spa", "Beachfront", "Free WiFi"],
+    badges: ["Top rated", "All-inclusive"]
+  },
+  {
+    id: "resort-2",
+    name: "Secrets Wild Orchid",
+    location: "Montego Bay, Jamaica",
+    country: "Jamaica",
+    price: 420,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+    type: ["Adults-only", "Luxury", "All-inclusive"],
+    amenities: ["Pool", "Spa", "Beachfront", "Fitness Center"],
+    badges: ["Adults-only", "All-inclusive"]
+  },
+  {
+    id: "resort-3",
+    name: "Dreams Macao Beach",
+    location: "Punta Cana, Dominican Republic",
+    country: "Dominican Republic",
+    price: 280,
+    rating: 4.3,
+    image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
+    type: ["Family-friendly", "All-inclusive"],
+    amenities: ["Pool", "Beachfront", "Free WiFi"],
+    badges: ["Family favorite"]
+  },
+  {
+    id: "resort-4",
+    name: "Le Blanc Spa Resort",
+    location: "Cancun, Mexico",
+    country: "Mexico",
+    price: 750,
+    rating: 5.0,
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80",
+    type: ["Luxury", "Adults-only", "All-inclusive", "Wedding-friendly"],
+    amenities: ["Pool", "Spa", "Beachfront", "Free WiFi"],
+    badges: ["Luxury", "Top rated"]
+  },
+  {
+    id: "resort-5",
+    name: "Hyatt Ziva Rose Hall",
+    location: "Montego Bay, Jamaica",
+    country: "Jamaica",
+    price: 450,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1618773928120-2c14040dcb45?auto=format&fit=crop&w=800&q=80",
+    type: ["All-inclusive", "Family-friendly", "Wedding-friendly"],
+    amenities: ["Pool", "Beachfront", "Spa"],
+    badges: ["All-inclusive"]
+  },
+  {
+    id: "resort-6",
+    name: "Excellence El Carmen",
+    location: "Punta Cana, Dominican Republic",
+    country: "Dominican Republic",
+    price: 520,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+    type: ["Adults-only", "Luxury", "All-inclusive"],
+    amenities: ["Pool", "Spa", "Beachfront", "Free WiFi"],
+    badges: ["Top rated"]
+  },
+  {
+    id: "resort-7",
+    name: "Grand Palladium",
+    location: "Riviera Maya, Mexico",
+    country: "Mexico",
+    price: 220,
+    rating: 4.0,
+    image: "https://images.unsplash.com/photo-1505663731998-1e43e2646c07?auto=format&fit=crop&w=800&q=80",
+    type: ["Budget", "Family-friendly", "All-inclusive"],
+    amenities: ["Pool", "Beachfront", "Free WiFi"],
+    badges: ["Great value"]
+  },
+  {
+    id: "resort-8",
+    name: "Sandals Royal Caribbean",
+    location: "Montego Bay, Jamaica",
+    country: "Jamaica",
+    price: 680,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1590490359854-dfba196ceaca?auto=format&fit=crop&w=800&q=80",
+    type: ["Luxury", "All-inclusive"],
+    amenities: ["Pool", "Spa", "Beachfront", "Free WiFi"],
+    badges: ["Couples only"]
+  },
+  {
+    id: "resort-9",
+    name: "Casa de Campo Resort",
+    location: "La Romana, Dominican Republic",
+    country: "Dominican Republic",
+    price: 490,
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80",
+    type: ["Luxury", "Wedding-friendly"],
+    amenities: ["Pool", "Spa", "Free WiFi"],
+    badges: ["Golf Resort"]
+  }
+];
